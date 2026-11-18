@@ -1,0 +1,208 @@
+{
+  "beginner": {
+    "name": "Make the page easier to scan",
+    "subtitle": "Match each design move to the principle it puts into practice.",
+    "instruction": "Choose a card, then assign it to a principle. You can also drag cards into a target.",
+    "choices": [
+      {
+        "id": "b1",
+        "title": "Make the main action stand out",
+        "detail": "Use a stronger size and tone for “Start here.”"
+      },
+      {
+        "id": "b2",
+        "title": "Line up the labels",
+        "detail": "Give each heading and its text the same left edge."
+      },
+      {
+        "id": "b3",
+        "title": "Keep related details together",
+        "detail": "Place a date beside the event it describes."
+      },
+      {
+        "id": "b4",
+        "title": "Repeat one visual cue",
+        "detail": "Use the same marker for every activity step."
+      }
+    ],
+    "targets": [
+      {
+        "id": "contrast",
+        "title": "Contrast",
+        "description": "Create a useful difference so important information is easier to notice.",
+        "answer": "b1",
+        "why": "A stronger size and tone create a clear visual difference that helps the primary action get noticed.",
+        "tempting": "Alignment can make a page orderly, but it does not create the same emphasis as a distinct size or tone.",
+        "next": "Try checking whether the most important action is the first thing a learner notices."
+      },
+      {
+        "id": "alignment",
+        "title": "Alignment",
+        "description": "Use shared edges or axes to create order and connection.",
+        "answer": "b2",
+        "why": "Shared left edges give the labels and their text a consistent visual anchor.",
+        "tempting": "Repetition uses recurring elements; here, the shared edge is the clearest organizing move.",
+        "next": "Look for one invisible grid line that can organize the page."
+      },
+      {
+        "id": "proximity",
+        "title": "Proximity",
+        "description": "Place related items near each other to show they belong together.",
+        "answer": "b3",
+        "why": "The nearby date reads as part of its event, reducing the effort needed to connect them.",
+        "tempting": "A repeated marker could build a pattern, but it would not communicate this specific relationship as directly.",
+        "next": "Notice which details learners need to interpret as a single unit."
+      },
+      {
+        "id": "repetition",
+        "title": "Repetition",
+        "description": "Repeat a visual element to create consistency across a set.",
+        "answer": "b4",
+        "why": "Reusing the same marker creates a consistent pattern learners can recognize across steps.",
+        "tempting": "Alignment may also help these steps feel organized, but the recurring marker is the key repeated cue.",
+        "next": "Choose a small number of cues and use them consistently."
+      }
+    ]
+  },
+  "intermediate": {
+    "name": "Design a useful learning sequence",
+    "subtitle": "Connect each learning situation with an approach that can support it.",
+    "instruction": "Match the design situation to the learning approach that best supports its main need. More than one approach can be useful in a real course; focus on the need described.",
+    "choices": [
+      {
+        "id": "i1",
+        "title": "ADDIE",
+        "detail": "Analyze, design, develop, implement, evaluate."
+      },
+      {
+        "id": "i2",
+        "title": "Constructivism",
+        "detail": "Learners build understanding through exploration and connection."
+      },
+      {
+        "id": "i3",
+        "title": "Cognitive load",
+        "detail": "Manage working-memory demands with clear chunking and signaling."
+      },
+      {
+        "id": "i4",
+        "title": "Behaviorism",
+        "detail": "Practice a response and receive clear, timely consequences."
+      },
+      {
+        "id": "i5",
+        "title": "Social learning",
+        "detail": "Observe others, discuss decisions, and learn together."
+      }
+    ],
+    "targets": [
+      {
+        "id": "plan",
+        "title": "Plan, test, improve",
+        "description": "A team needs an iterative process from learner analysis through evaluation.",
+        "answer": "i1",
+        "why": "ADDIE gives the team a useful sequence for analyzing the need, designing and developing a response, implementing it, and evaluating results.",
+        "tempting": "Cognitive-load ideas can shape materials, but they are not a full project-development cycle.",
+        "next": "Make evaluation part of the plan early, then use it to guide revision."
+      },
+      {
+        "id": "explore",
+        "title": "Build meaning through exploration",
+        "description": "Learners connect a new idea to what they already know by testing examples.",
+        "answer": "i2",
+        "why": "Constructivism supports learners in actively building meaning by exploring and connecting ideas.",
+        "tempting": "A scripted explanation may be efficient, but it offers less room to construct an understanding from examples.",
+        "next": "Give learners a purposeful prompt and time to compare what they notice."
+      },
+      {
+        "id": "focus",
+        "title": "Reduce avoidable mental effort",
+        "description": "A dense lesson needs clearer chunks, signaling, and fewer competing elements.",
+        "answer": "i3",
+        "why": "Managing cognitive load helps keep attention on essential information rather than avoidable complexity.",
+        "tempting": "Social discussion can be valuable, but it may add more information to process if the core lesson is already dense.",
+        "next": "Remove anything that does not help learners reach the current objective."
+      },
+      {
+        "id": "practice",
+        "title": "Strengthen a specific response",
+        "description": "Learners need repeated, low-stakes practice with immediate feedback on a procedure.",
+        "answer": "i4",
+        "why": "Behaviorist practice can support a well-defined response when feedback is timely and practice is meaningful.",
+        "tempting": "Exploration is useful for open-ended ideas, but a clear response-and-feedback loop fits this procedural goal more directly.",
+        "next": "Keep feedback specific and let learners try again after it."
+      },
+      {
+        "id": "community",
+        "title": "Learn by watching and discussing",
+        "description": "A novice benefits from seeing an expert model a decision, then discussing it with peers.",
+        "answer": "i5",
+        "why": "Social learning makes modeling and shared interpretation central, matching the learner’s need to observe and discuss decisions.",
+        "tempting": "Independent exploration could be valuable, but it misses the explicit modeling and peer exchange in this situation.",
+        "next": "Make the expert’s reasoning visible, not only the final result."
+      }
+    ]
+  },
+  "advanced": {
+    "name": "A design decision in context",
+    "subtitle": "Build a response for a real constraint—not a universal recipe.",
+    "instruction": "Read the situation, then match each design choice to the learner need it addresses. Consider context: different choices could work when the constraints or goals change.",
+    "scenario": "A community health team is making a 12-minute mobile lesson for adults who speak several first languages. Learners need to recognize signs of heat stress and choose a safe next step. Many will study between work shifts, with intermittent internet. The team has one short video, a set of illustrated scenarios, and a moderated group chat.",
+    "choices": [
+      {
+        "id": "a1",
+        "title": "Chunk the lesson into short screens",
+        "detail": "One sign and one decision at a time, with a visible progress cue."
+      },
+      {
+        "id": "a2",
+        "title": "Add a narrated 12-minute lecture",
+        "detail": "Present the full explanation in one continuous video."
+      },
+      {
+        "id": "a3",
+        "title": "Use illustrated scenarios with choices",
+        "detail": "Show a situation, ask what to do, then explain the consequence."
+      },
+      {
+        "id": "a4",
+        "title": "Invite learners to compare strategies",
+        "detail": "Use the moderated chat to discuss how they would help in their community."
+      },
+      {
+        "id": "a5",
+        "title": "Make the video the only learning path",
+        "detail": "Ask everyone to stream the same clip before moving on."
+      }
+    ],
+    "targets": [
+      {
+        "id": "access",
+        "title": "Fit brief, interrupted study time",
+        "description": "Support return-to-task and keep each moment manageable on a phone.",
+        "answer": "a1",
+        "why": "Short, clearly signposted screens let learners pause between shifts and return without rebuilding the whole lesson in working memory.",
+        "tempting": "A single lecture can establish a coherent story, but streaming one long clip is less forgiving of interruptions and unreliable access.",
+        "next": "Test whether a learner can resume at the next screen and still understand where they are."
+      },
+      {
+        "id": "apply",
+        "title": "Practice choosing a safe action",
+        "description": "Help learners use signs and make a decision, not just recall a definition.",
+        "answer": "a3",
+        "why": "A scenario followed by a choice and consequence lets learners rehearse the judgment the objective asks them to make.",
+        "tempting": "A lecture can explain the signs, but without a decision point learners may not practice applying them.",
+        "next": "Include feedback that explains why an action is safe, with plain language and useful illustrations."
+      },
+      {
+        "id": "belonging",
+        "title": "Value local knowledge and perspectives",
+        "description": "Make room for learners to compare community experience with care.",
+        "answer": "a4",
+        "why": "A moderated exchange can surface local knowledge and let learners learn from one another, if participation feels safe and accessible.",
+        "tempting": "A fixed answer key can communicate core safety guidance, but alone it may leave less room for community context. Keep expert-verified guidance clear alongside discussion.",
+        "next": "Offer a private or asynchronous way to participate for learners who cannot join live."
+      }
+    ]
+  }
+}
